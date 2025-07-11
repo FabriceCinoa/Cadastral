@@ -1,0 +1,290 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C484BB-35F8-E04A-F3E6-4FF2DCE72A98}|Api.Geo.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\api\\api.geo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2C484BB-35F8-E04A-F3E6-4FF2DCE72A98}|Api.Geo.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49456927-64D3-4B6F-BC0D-18259367C6FB}|..\\..\\Repositories\\GeoRepository\\GeoRepository.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\repositories\\georepository\\repositories\\geopostgredbrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C484BB-35F8-E04A-F3E6-4FF2DCE72A98}|Api.Geo.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\api\\api.geo\\controllers\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2C484BB-35F8-E04A-F3E6-4FF2DCE72A98}|Api.Geo.csproj|solutionrelative:controllers\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49456927-64D3-4B6F-BC0D-18259367C6FB}|..\\..\\Repositories\\GeoRepository\\GeoRepository.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\repositories\\georepository\\migrations\\v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49456927-64D3-4B6F-BC0D-18259367C6FB}|..\\..\\Repositories\\GeoRepository\\GeoRepository.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\repositories\\georepository\\dbcontext\\geopostgredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C484BB-35F8-E04A-F3E6-4FF2DCE72A98}|Api.Geo.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\api\\api.geo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2C484BB-35F8-E04A-F3E6-4FF2DCE72A98}|Api.Geo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C484BB-35F8-E04A-F3E6-4FF2DCE72A98}|Api.Geo.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\api\\api.geo\\payloads\\search\\searchpayloads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2C484BB-35F8-E04A-F3E6-4FF2DCE72A98}|Api.Geo.csproj|solutionrelative:payloads\\search\\searchpayloads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C484BB-35F8-E04A-F3E6-4FF2DCE72A98}|Api.Geo.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\api\\api.geo\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2C484BB-35F8-E04A-F3E6-4FF2DCE72A98}|Api.Geo.csproj|solutionrelative:models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49456927-64D3-4B6F-BC0D-18259367C6FB}|..\\..\\Repositories\\GeoRepository\\GeoRepository.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\repositories\\georepository\\entities\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C484BB-35F8-E04A-F3E6-4FF2DCE72A98}|Api.Geo.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\api\\api.geo\\api.geo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C2C484BB-35F8-E04A-F3E6-4FF2DCE72A98}|Api.Geo.csproj|solutionrelative:api.geo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49456927-64D3-4B6F-BC0D-18259367C6FB}|..\\..\\Repositories\\GeoRepository\\GeoRepository.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\repositories\\georepository\\migrations\\idbmigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E01050E-753B-6D8E-2A7F-34DA2FFBCB24}|..\\..\\Libraries\\Common.Repository\\Common.Repository.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\libraries\\common.repository\\postgre\\apostgrecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E01050E-753B-6D8E-2A7F-34DA2FFBCB24}|..\\..\\Libraries\\Common.Repository\\Common.Repository.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\libraries\\common.repository\\postgre\\apostgrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C484BB-35F8-E04A-F3E6-4FF2DCE72A98}|Api.Geo.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\api\\api.geo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2C484BB-35F8-E04A-F3E6-4FF2DCE72A98}|Api.Geo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E01050E-753B-6D8E-2A7F-34DA2FFBCB24}|..\\..\\Libraries\\Common.Repository\\Common.Repository.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\libraries\\common.repository\\common.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SearchPayloads.cs",
+              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Payloads\\Search\\SearchPayloads.cs",
+              "RelativeDocumentMoniker": "Payloads\\Search\\SearchPayloads.cs",
+              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Payloads\\Search\\SearchPayloads.cs",
+              "RelativeToolTip": "Payloads\\Search\\SearchPayloads.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T16:19:36.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "City.cs",
+              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Models\\City.cs",
+              "RelativeDocumentMoniker": "Models\\City.cs",
+              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Models\\City.cs",
+              "RelativeToolTip": "Models\\City.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T16:15:39.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "v1.cs",
+              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Repositories\\GeoRepository\\Migrations\\v1.cs",
+              "RelativeDocumentMoniker": "..\\..\\Repositories\\GeoRepository\\Migrations\\v1.cs",
+              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Repositories\\GeoRepository\\Migrations\\v1.cs",
+              "RelativeToolTip": "..\\..\\Repositories\\GeoRepository\\Migrations\\v1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T15:24:42.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IDBMigation.cs",
+              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Repositories\\GeoRepository\\Migrations\\IDBMigation.cs",
+              "RelativeDocumentMoniker": "..\\..\\Repositories\\GeoRepository\\Migrations\\IDBMigation.cs",
+              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Repositories\\GeoRepository\\Migrations\\IDBMigation.cs",
+              "RelativeToolTip": "..\\..\\Repositories\\GeoRepository\\Migrations\\IDBMigation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T15:23:29.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-11T14:30:38.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T14:29:19.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-11T14:29:14.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Common.Repository",
+              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Libraries\\Common.Repository\\Common.Repository.csproj",
+              "RelativeDocumentMoniker": "..\\..\\Libraries\\Common.Repository\\Common.Repository.csproj",
+              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Libraries\\Common.Repository\\Common.Repository.csproj",
+              "RelativeToolTip": "..\\..\\Libraries\\Common.Repository\\Common.Repository.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-11T14:11:47.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "APostGreRepository.cs",
+              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Libraries\\Common.Repository\\PostGre\\APostGreRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\Libraries\\Common.Repository\\PostGre\\APostGreRepository.cs",
+              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Libraries\\Common.Repository\\PostGre\\APostGreRepository.cs",
+              "RelativeToolTip": "..\\..\\Libraries\\Common.Repository\\PostGre\\APostGreRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T14:01:46.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "APostGreContext.cs",
+              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Libraries\\Common.Repository\\PostGre\\APostGreContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\Libraries\\Common.Repository\\PostGre\\APostGreContext.cs",
+              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Libraries\\Common.Repository\\PostGre\\APostGreContext.cs",
+              "RelativeToolTip": "..\\..\\Libraries\\Common.Repository\\PostGre\\APostGreContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAD0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T14:00:04.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Search.cs",
+              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Controllers\\Search.cs",
+              "RelativeDocumentMoniker": "Controllers\\Search.cs",
+              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Controllers\\Search.cs",
+              "RelativeToolTip": "Controllers\\Search.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T13:58:11.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GeoPostGreDBRepository.cs",
+              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Repositories\\GeoRepository\\Repositories\\GeoPostGreDBRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\Repositories\\GeoRepository\\Repositories\\GeoPostGreDBRepository.cs",
+              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Repositories\\GeoRepository\\Repositories\\GeoPostGreDBRepository.cs",
+              "RelativeToolTip": "..\\..\\Repositories\\GeoRepository\\Repositories\\GeoPostGreDBRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAArwCAAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T13:52:48.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "City.cs",
+              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Repositories\\GeoRepository\\Entities\\City.cs",
+              "RelativeDocumentMoniker": "..\\..\\Repositories\\GeoRepository\\Entities\\City.cs",
+              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Repositories\\GeoRepository\\Entities\\City.cs",
+              "RelativeToolTip": "..\\..\\Repositories\\GeoRepository\\Entities\\City.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwDUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T13:43:04.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GeoPostGreDBContext.cs",
+              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Repositories\\GeoRepository\\DBContext\\GeoPostGreDBContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\Repositories\\GeoRepository\\DBContext\\GeoPostGreDBContext.cs",
+              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Repositories\\GeoRepository\\DBContext\\GeoPostGreDBContext.cs",
+              "RelativeToolTip": "..\\..\\Repositories\\GeoRepository\\DBContext\\GeoPostGreDBContext.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAnwFQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T13:42:10.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Api.Geo",
+              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Api.Geo.csproj",
+              "RelativeDocumentMoniker": "Api.Geo.csproj",
+              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Api.Geo.csproj",
+              "RelativeToolTip": "Api.Geo.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-11T12:58:56.14Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
