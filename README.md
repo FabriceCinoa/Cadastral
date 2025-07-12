@@ -6,17 +6,22 @@
 Pour restaurer un fichier de backup dans la base de données `immo`, suivez ces étapes :
 
 - Connectez-vous à votre base de données.
-- Utilisez la commande de restauration spécifique à votre système de gestion de base de données.
+- Utilisez la commande de restauration : fichier [...](/geo.backup)
 
-Exemple pour MySQL :
 
-```bash
-mysql -u root -p immo < /path/to/backup.sql
-```
 
 ## 2. Lancer l'API Geo
 
 L'API Geo permet d'effectuer des recherches géographiques sur des adresses.
+
+- ".\Api.Geo\bin\Debug\net9.0\Api.Geo.exe"Api.Geo.exe : 
+## 3. Lancer l'API BFF
+
+L'API BFF (Backend For Frontend) simplifie la communication entre le front-end et les services backend.
+
+- ".\Bff.Search\bin\Debug\net9.0\Bff.Search.exe" : 
+
+Assurez-vous que cette API est bien démarrée avant de faire des appels.
 
 ### Exemple de requête POST
 
@@ -76,11 +81,6 @@ L'API Geo permet d'effectuer des recherches géographiques sur des adresses.
 - `Cities` : Liste des villes correspondant à la recherche avec code INSEE, nom de la ville, code postal et complément.
 - `Addresses` : Liste des adresses correspondantes avec position géographique et nom complet.
 
-## 3. Lancer l'API BFF
-
-L'API BFF (Backend For Frontend) simplifie la communication entre le front-end et les services backend.
-
-Assurez-vous que cette API est bien démarrée avant de faire des appels.
 
 ---
 
