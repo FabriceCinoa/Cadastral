@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C484BB-35F8-E04A-F3E6-4FF2DCE72A98}|Api.Geo.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\api\\api.geo\\controllers\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2C484BB-35F8-E04A-F3E6-4FF2DCE72A98}|Api.Geo.csproj|solutionrelative:controllers\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C484BB-35F8-E04A-F3E6-4FF2DCE72A98}|Api.Geo.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\api\\api.geo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2C484BB-35F8-E04A-F3E6-4FF2DCE72A98}|Api.Geo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +43,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:4:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Search.cs",
+              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Controllers\\Search.cs",
+              "RelativeDocumentMoniker": "Controllers\\Search.cs",
+              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Controllers\\Search.cs",
+              "RelativeToolTip": "Controllers\\Search.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T07:29:33.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T06:24:36.351Z",
+              "EditorCaption": ""
             }
           ]
         }

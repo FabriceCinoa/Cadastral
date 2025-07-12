@@ -2,7 +2,7 @@
 
 namespace Api.Geo.Models
 {
-    public class City
+    public partial class City
     {
 
         public string CodeInsee { get; set; }

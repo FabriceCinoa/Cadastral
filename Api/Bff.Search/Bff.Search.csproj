@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="..\Api.Geo\Models\City.cs" Link="Models\City.cs" />
+    <Compile Include="..\Api.Geo\Models\GeoJson.cs" Link="Models\GeoJson.cs" />
+    <Compile Include="..\Api.Geo\Payloads\Search\SearchPayloads.cs" Link="Payloads\Api.geoSearch\SearchPayloads.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.7" />
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="9.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="9.0.3" />
@@ -15,6 +21,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Libraries\Commons\Common.Library.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Payloads\Api.geoSearch\" />
   </ItemGroup>
 
 </Project>

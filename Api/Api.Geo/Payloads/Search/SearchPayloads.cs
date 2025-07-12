@@ -3,7 +3,7 @@ using Common.Library.DataServiceApi;
 
 namespace Api.Geo.Payloads;
 
-    public class SearchPayload
+    public partial class SearchPayload
     {
         public string  SearchString { get; set; }
         public double Precision { get; set; } = 0.5;
@@ -12,7 +12,7 @@ namespace Api.Geo.Payloads;
     }
 
 
-    public class SearchResult: Response<IList<City>>
+    public partial class SearchResult: Response<IList<City>>
     {
 
     }
