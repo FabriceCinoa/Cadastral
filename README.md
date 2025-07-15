@@ -19,7 +19,7 @@ L'API Geo permet d'effectuer des recherches géographiques sur des adresses.
 
 L'API BFF (Backend For Frontend) simplifie la communication entre le front-end et les services backend.
 
-- ".\Bff.Search\bin\Debug\net9.0\Bff.Search.exe" : 
+- ".\Bff.Search\bin\Debug\net9.0\Bff.Web.exe" : 
 
 Assurez-vous que cette API est bien démarrée avant de faire des appels.
 

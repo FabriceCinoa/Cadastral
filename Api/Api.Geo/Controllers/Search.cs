@@ -16,14 +16,14 @@ namespace Api.Auth.Controllers
        
 
 
-        public SearchController(IConfiguration configuration, GeoPostGreDBRepository repository)
+        public SearchController(IConfiguration configuration, IGeoRepository repository)
         {
             Configuration = configuration;
             Repository = repository;
         }
 
         public IConfiguration Configuration { get; }
-        public GeoPostGreDBRepository Repository { get; }
+        public IGeoRepository Repository { get; }
 
         [HttpPost(Name = "search")]
         public SearchResult  PostSearch(SearchPayload payload)
