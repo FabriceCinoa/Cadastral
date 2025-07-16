@@ -3,14 +3,21 @@
   "WorkspaceRootPath": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Bff.Web\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E65F7A6B-C59E-E78B-03A7-7F7F53BF12F0}|Bff.Web.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\api\\bff.web\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E65F7A6B-C59E-E78B-03A7-7F7F53BF12F0}|Bff.Web.csproj|solutionrelative:controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E65F7A6B-C59E-E78B-03A7-7F7F53BF12F0}|Bff.Web.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\api\\api.geo\\models\\geojson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E65F7A6B-C59E-E78B-03A7-7F7F53BF12F0}|Bff.Web.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\api\\api.geo\\payloads\\search\\searchpayloads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E65F7A6B-C59E-E78B-03A7-7F7F53BF12F0}|Bff.Web.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\api\\bff.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E65F7A6B-C59E-E78B-03A7-7F7F53BF12F0}|Bff.Web.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D15C912-9BA1-EC77-E7DF-607E8A00F3E5}|..\\..\\Libraries\\Commons\\Common.Library.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\libraries\\commons\\class\\taskshelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D15C912-9BA1-EC77-E7DF-607E8A00F3E5}|..\\..\\Libraries\\Commons\\Common.Library.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\libraries\\commons\\dataserviceapi\\authorizedapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D15C912-9BA1-EC77-E7DF-607E8A00F3E5}|..\\..\\Libraries\\Commons\\Common.Library.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\libraries\\commons\\class\\api_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -26,17 +33,11 @@
       "RelativeMoniker": "D:0:0:{E65F7A6B-C59E-E78B-03A7-7F7F53BF12F0}|Bff.Web.csproj|solutionrelative:bff.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E65F7A6B-C59E-E78B-03A7-7F7F53BF12F0}|Bff.Web.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\api\\api.geo\\payloads\\search\\searchpayloads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E65F7A6B-C59E-E78B-03A7-7F7F53BF12F0}|Bff.Web.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\api\\api.geo\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E65F7A6B-C59E-E78B-03A7-7F7F53BF12F0}|Bff.Web.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\api\\bff.web\\models\\adress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E65F7A6B-C59E-E78B-03A7-7F7F53BF12F0}|Bff.Web.csproj|solutionrelative:models\\adress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E65F7A6B-C59E-E78B-03A7-7F7F53BF12F0}|Bff.Web.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\api\\api.geo\\models\\geojson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E65F7A6B-C59E-E78B-03A7-7F7F53BF12F0}|Bff.Web.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\api\\bff.web\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +63,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,33 +91,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SearchPayloads.cs",
-              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Payloads\\Search\\SearchPayloads.cs",
-              "RelativeDocumentMoniker": "..\\Api.Geo\\Payloads\\Search\\SearchPayloads.cs",
-              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Payloads\\Search\\SearchPayloads.cs",
-              "RelativeToolTip": "..\\Api.Geo\\Payloads\\Search\\SearchPayloads.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SearchController.cs",
+              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Bff.Web\\Controllers\\SearchController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SearchController.cs",
+              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Bff.Web\\Controllers\\SearchController.cs",
+              "RelativeToolTip": "Controllers\\SearchController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAiwG4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T14:28:21.564Z",
+              "WhenOpened": "2025-07-16T18:59:16.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "City.cs",
-              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Models\\City.cs",
-              "RelativeDocumentMoniker": "..\\Api.Geo\\Models\\City.cs",
-              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Models\\City.cs",
-              "RelativeToolTip": "..\\Api.Geo\\Models\\City.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T14:04:27.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Adress.cs",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Bff.Web\\Models\\Adress.cs",
               "RelativeDocumentMoniker": "Models\\Adress.cs",
@@ -129,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "TasksHelpers.cs",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Libraries\\Commons\\Class\\TasksHelpers.cs",
               "RelativeDocumentMoniker": "..\\..\\Libraries\\Commons\\Class\\TasksHelpers.cs",
@@ -141,13 +129,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "GeoJson.cs",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Models\\GeoJson.cs",
               "RelativeDocumentMoniker": "..\\Api.Geo\\Models\\GeoJson.cs",
               "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Models\\GeoJson.cs",
               "RelativeToolTip": "..\\Api.Geo\\Models\\GeoJson.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAIwCgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCEAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-12T13:10:30.472Z",
               "EditorCaption": ""
@@ -179,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Api_Client.cs",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Libraries\\Commons\\Class\\Api_Client.cs",
               "RelativeDocumentMoniker": "..\\..\\Libraries\\Commons\\Class\\Api_Client.cs",
@@ -191,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Constant.cs",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Libraries\\Commons\\Class\\Constant.cs",
               "RelativeDocumentMoniker": "..\\..\\Libraries\\Commons\\Class\\Constant.cs",
@@ -203,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Utils.cs",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Libraries\\Commons\\Class\\Utils.cs",
               "RelativeDocumentMoniker": "..\\..\\Libraries\\Commons\\Class\\Utils.cs",
@@ -215,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Bff.Web\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -228,7 +216,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
+              "Title": "City.cs",
+              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Models\\City.cs",
+              "RelativeDocumentMoniker": "..\\Api.Geo\\Models\\City.cs",
+              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Models\\City.cs",
+              "RelativeToolTip": "..\\Api.Geo\\Models\\City.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T14:04:27.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SearchPayloads.cs",
+              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Payloads\\Search\\SearchPayloads.cs",
+              "RelativeDocumentMoniker": "..\\Api.Geo\\Payloads\\Search\\SearchPayloads.cs",
+              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Payloads\\Search\\SearchPayloads.cs",
+              "RelativeToolTip": "..\\Api.Geo\\Payloads\\Search\\SearchPayloads.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAzwBMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T14:28:21.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Bff.Web.csproj",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Bff.Web\\Bff.Web.csproj",
               "RelativeDocumentMoniker": "Bff.Web.csproj",
@@ -261,18 +275,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-12T06:29:46.893Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthorizedApiController.cs",
-              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Libraries\\Commons\\DataServiceApi\\AuthorizedApiController.cs",
-              "RelativeDocumentMoniker": "..\\..\\Libraries\\Commons\\DataServiceApi\\AuthorizedApiController.cs",
-              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Libraries\\Commons\\DataServiceApi\\AuthorizedApiController.cs",
-              "RelativeToolTip": "..\\..\\Libraries\\Commons\\DataServiceApi\\AuthorizedApiController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T06:27:27.176Z"
             }
           ]
         }

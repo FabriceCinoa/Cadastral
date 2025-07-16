@@ -2,8 +2,8 @@
 <!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>G:\Projets\Others  Projects\Cadastral\pub</_PublishTargetUrl>
-    <History>True|2025-07-16T08:34:15.6776791Z||;</History>
+    <_PublishTargetUrl>G:\Projets\Others  Projects\Cadastral\pub\geo</_PublishTargetUrl>
+    <History>True|2025-07-16T19:58:08.7560302Z||;True|2025-07-16T10:34:15.6776791+02:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

@@ -19,6 +19,12 @@ public partial  class GeoPostGreDBRepository : APostGreRepository<APostGreContex
     }
 
 
+    public IList<ZoneEntity> GetZonesBy(string CodeInsee)
+    {
+        var r  =   this.Context.Set<ZoneEntity>().Where(x => x.CodeInsee == CodeInsee).ToList();
+        return r;
+    }
+
     public IList<CityEntity> Find(string search, int limit = 10, double precision = 0.5)
     {
         string searchQ = $"{search}";

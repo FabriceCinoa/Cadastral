@@ -3,7 +3,8 @@
 public class Geometry
 {
     public string Type { get; set; }
-    public List<double> Coordinates { get; set; }
+    public object Coordinates { get; set; }
+    //public Dictionary<string, object> Properties { get; } = new Dictionary<string, object>();
 }
 
 public class Properties
@@ -30,8 +31,18 @@ public class Feature
 {
     public string Type { get; set; }
     public Geometry Geometry { get; set; }
-    public Properties Properties { get; set; }
+    public Dictionary<string, object> Properties { get;  set; } = new Dictionary<string, object>();
+    
 }
+
+public class FeatureDataGouv
+{
+    public string Type { get; set; }
+    public Geometry Geometry { get; set; }
+    public Properties Properties { get;  set; }
+
+}
+
 
 public class FeatureCollection
 {
@@ -41,3 +52,10 @@ public class FeatureCollection
 }
 
 
+
+public class FeatureCollectionDataGouv
+{
+    public string Type { get; set; }
+    public List<FeatureDataGouv> Features { get; set; }
+    public string Query { get; set; }
+}

@@ -88,5 +88,5 @@ internal class GeoPostGreDBContext : APostGreContext
     public DbSet<CityEntity> Cities { get; set; }
     private DbSet<BdVersionEntity> Versions { get; set; }
 
-    public DbSet<Zone> Zones { get; set; } 
+    public DbSet<ZoneEntity> Zones { get; set; } 
 }

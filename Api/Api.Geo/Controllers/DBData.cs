@@ -84,7 +84,7 @@ namespace Api.Geo.Controllers
                        var geoFeature = await ProcessFeature(feature, geoJsonReader);
                        if (geoFeature != null)
                         {
-                            var zone = JsonConvert.DeserializeObject<Zone>(geoFeature.Properties);
+                            var zone = JsonConvert.DeserializeObject<ZoneEntity>(geoFeature.Properties);
                             zone.CodeInsee = zone.ZoneCode.Split("_").Last();
                      //      JsonConvert.DeserializeObject<Zone>(geoFeature.Properties,) 
 

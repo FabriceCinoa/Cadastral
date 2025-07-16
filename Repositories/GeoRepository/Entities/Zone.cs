@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NetTopologySuite.Geometries;
+using NetTopologySuite.IO;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,7 @@ namespace GeoRepository.Entities
 {
 
     [Table("Zone", Schema = "geo")]
-    public class Zone
+    public class ZoneEntity
     {
         [Key]
         [Column("uid")]
@@ -49,5 +50,19 @@ namespace GeoRepository.Entities
 
         [Column("geometry")]
         public Geometry Geometry { get; set; }
+
+        public string GeoJson
+        {
+            get
+            {
+                if( this.Geometry != null)
+                {
+                    var writer = new GeoJsonWriter();
+                    string geoJson = writer.Write(this.Geometry);
+                    return geoJson;
+                }
+                return null;
+            }
+        }
     }
 }

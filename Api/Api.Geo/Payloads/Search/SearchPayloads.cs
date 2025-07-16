@@ -16,3 +16,8 @@ namespace Api.Geo.Payloads;
     {
 
     }
+
+public partial class SearchZoneResult : Response<FeatureCollection>
+{
+
+}

@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Bff.Search.Controllers
 {
-    [Route("bffweb-[controller]")]
+    [Route("bff/[controller]")]
     [ApiController]
     public class SearchController : AuthorizedApiController
     {
@@ -20,7 +20,7 @@ namespace Bff.Search.Controllers
 
         }
 
-        [HttpPost("cities")]
+        [HttpPost("address")]
         [AllowAnonymous]
         public async Task<SearchCityResult> Post(SearchPayload payload)
         {
@@ -28,12 +28,10 @@ namespace Bff.Search.Controllers
             try
             {
 
-
-
                 Task<SearchResult> _apiGeoSearch = TaskHelper.PerformTaskWithTimeout<SearchResult>("ApiGeoCall", () =>
                 {
                     var apicLient = new ApiClient();
-                    var r = apicLient.PostAsync<SearchResult>("http://localhost:9000/search", payload).ConfigureAwait(false).GetAwaiter();
+                    var r = apicLient.PostAsync<SearchResult>("http://localhost:9000/search/address", payload).ConfigureAwait(false).GetAwaiter();
                     var status = r.GetResult();
                     if (status.Success && status.Data.StatusCode == System.Net.HttpStatusCode.OK)
                     {
@@ -42,10 +40,10 @@ namespace Bff.Search.Controllers
                     return null;
                 }, 1000);
 
-                var _apiDataGouvSearch = TaskHelper.PerformTaskWithTimeout<FeatureCollection>("ApiGeoCall", () =>
+                var _apiDataGouvSearch = TaskHelper.PerformTaskWithTimeout<FeatureCollectionDataGouv>("ApiGeoCall", () =>
                 {
                     var apicLient = new ApiClient();
-                    var r = apicLient.GetAsync<FeatureCollection>($"https://api-adresse.data.gouv.fr/search/?q={payload.SearchString}&limit={payload.MaxResults}").ConfigureAwait(false).GetAwaiter();
+                    var r = apicLient.GetAsync<FeatureCollectionDataGouv>($"https://api-adresse.data.gouv.fr/search/?q={payload.SearchString}&limit={payload.MaxResults}").ConfigureAwait(false).GetAwaiter();
                     var status = r.GetResult();
                     if (status.Success && status.Data != null)
                     {
@@ -78,6 +76,48 @@ namespace Bff.Search.Controllers
                 _res.StatusCode = System.Net.HttpStatusCode.InternalServerError;
                 _res.SetError(Guid.NewGuid());
                 _res.Data = false;
+            }
+
+            return _res;
+
+        }
+
+        [HttpGet("zones")]
+        [AllowAnonymous]
+        public async Task<SearchZoneResult> GetZones(string codeinsee)
+        {
+            var _res = new SearchZoneResult();
+            try
+            {
+
+                Task<SearchZoneResult> _apiGeoSearch = TaskHelper.PerformTaskWithTimeout<SearchZoneResult>("ApiGeoCall", () =>
+                {
+                    var apicLient = new ApiClient();
+                    var r = apicLient.GetAsync<SearchZoneResult>($"http://localhost:9000/search/zones?codeinsee={codeinsee}").ConfigureAwait(false).GetAwaiter();
+                    var status = r.GetResult();
+                    if (status.Success && status.Data.StatusCode == System.Net.HttpStatusCode.OK)
+                    {
+                        return status.Data;
+                    }
+                    return null;
+                }, 1000);
+
+
+                var res = await Task.WhenAny(_apiGeoSearch);
+
+
+                if (_apiGeoSearch.Result != null && _apiGeoSearch.Result.Data.Features?.Count > 0)
+                {
+                    _res.Data = _apiGeoSearch.Result.Data;
+                }
+
+             
+            }
+            catch (Exception ex)
+            {
+                _res.StatusCode = System.Net.HttpStatusCode.InternalServerError;
+                _res.SetError(Guid.NewGuid());
+           
             }
 
             return _res;

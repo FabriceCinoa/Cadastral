@@ -12,11 +12,11 @@ public partial  class GeoPostGreDBRepository : APostGreRepository<APostGreContex
 {
 
 
-    public Zone CreateZone(Zone entity)
+    public ZoneEntity CreateZone(ZoneEntity entity)
     {
-        var z = this.Context.Set<Zone>().Where(c => c.GpuDocId == entity.GpuDocId && c.TypeZone == entity.TypeZone && c.Gid == entity.Gid).FirstOrDefault();
+        var z = this.Context.Set<ZoneEntity>().Where(c => c.GpuDocId == entity.GpuDocId && c.TypeZone == entity.TypeZone && c.Gid == entity.Gid).FirstOrDefault();
         if (z == null) {        
-            var ret = this.Context.Add<Zone>(entity);
+            var ret = this.Context.Add<ZoneEntity>(entity);
             if (this.SaveChanges())
                 return ret.Entity;
         }

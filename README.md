@@ -45,7 +45,7 @@ Assurez-vous que cette API est bien démarrée avant de faire des appels.
 
 ### Exemple de requête POST
 
-- **URL** : `http://localhost:8080/bffweb-search/cities`
+- **URL** : `http://localhost:8080/bff/search/address`
 - **Méthode** : `POST`
 
 ### Corps de la requête (Body)
@@ -104,4 +104,12 @@ Assurez-vous que cette API est bien démarrée avant de faire des appels.
 
 ---
 
-> _Ce document est une base pour les tests et l'intégration des services API. Veillez à adapter les chemins, ports et configurations selon votre environnement._
+
+### Exemple de requête Get pour les zones
+
+- **URL** : `http://localhost:9000/search/zones?codeinsee=95306`
+- **Méthode** : `GET`
+
+
+---
+> _Ce document est une base pour les tests et l'intégration des services API. Veillez à adapter les chemins, ports et configurations selon votre environnement
