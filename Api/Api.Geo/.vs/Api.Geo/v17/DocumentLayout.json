@@ -71,8 +71,7 @@
               "RelativeToolTip": "class\\GeoHelpers.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAA0wIcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T17:01:35.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T17:01:35.343Z"
             },
             {
               "$type": "Document",
@@ -82,7 +81,7 @@
               "RelativeDocumentMoniker": "Controllers\\Search.cs",
               "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Controllers\\Search.cs",
               "RelativeToolTip": "Controllers\\Search.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAwDYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwDYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-16T10:36:40.352Z",
               "EditorCaption": ""
@@ -97,8 +96,7 @@
               "RelativeToolTip": "..\\..\\Repositories\\GeoRepository\\Repositories\\GeoPostGreDBRepository.Get.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T16:55:40.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T16:55:40.487Z"
             },
             {
               "$type": "Document",
@@ -110,8 +108,7 @@
               "RelativeToolTip": "..\\..\\Repositories\\GeoRepository\\Entities\\Zone.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAIwD0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T16:55:34.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T16:55:34.958Z"
             },
             {
               "$type": "Document",
@@ -123,8 +120,7 @@
               "RelativeToolTip": "..\\..\\Repositories\\GeoRepository\\Repositories\\GeoPostGreDBRepository.Create.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T16:41:01.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T16:41:01.948Z"
             },
             {
               "$type": "Document",
@@ -136,8 +132,7 @@
               "RelativeToolTip": "Models\\GeoJson.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T16:35:57.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T16:35:57.217Z"
             },
             {
               "$type": "Document",
@@ -149,8 +144,7 @@
               "RelativeToolTip": "Payloads\\Search\\SearchPayloads.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAWwBMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T16:29:39.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T16:29:39.075Z"
             }
           ]
         }
