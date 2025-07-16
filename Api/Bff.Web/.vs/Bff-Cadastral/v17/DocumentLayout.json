@@ -111,7 +111,8 @@
               "RelativeToolTip": "..\\Api.Geo\\Models\\City.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T14:04:27.348Z"
+              "WhenOpened": "2025-07-12T14:04:27.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -123,7 +124,8 @@
               "RelativeToolTip": "Models\\Adress.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T14:03:44.371Z"
+              "WhenOpened": "2025-07-12T14:03:44.371Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -147,7 +149,8 @@
               "RelativeToolTip": "..\\Api.Geo\\Models\\GeoJson.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAIwCgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T13:10:30.472Z"
+              "WhenOpened": "2025-07-12T13:10:30.472Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -159,7 +162,8 @@
               "RelativeToolTip": "Models\\Property.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T13:00:05.903Z"
+              "WhenOpened": "2025-07-12T13:00:05.903Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -219,7 +223,8 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-12T06:35:55.031Z"
+              "WhenOpened": "2025-07-12T06:35:55.031Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Bff.Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E65F7A6B-C59E-E78B-03A7-7F7F53BF12F0}|Bff.Web.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\api\\bff.web\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E65F7A6B-C59E-E78B-03A7-7F7F53BF12F0}|Bff.Web.csproj|solutionrelative:controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E65F7A6B-C59E-E78B-03A7-7F7F53BF12F0}|Bff.Web.csproj|g:\\projets\\others  projects\\cadastral\\src\\.net\\api\\bff.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E65F7A6B-C59E-E78B-03A7-7F7F53BF12F0}|Bff.Web.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -66,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "SearchPayloads.cs",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Payloads\\Search\\SearchPayloads.cs",
               "RelativeDocumentMoniker": "..\\Api.Geo\\Payloads\\Search\\SearchPayloads.cs",
@@ -106,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "City.cs",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Models\\City.cs",
               "RelativeDocumentMoniker": "..\\Api.Geo\\Models\\City.cs",
@@ -118,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Adress.cs",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Bff.Web\\Models\\Adress.cs",
               "RelativeDocumentMoniker": "Models\\Adress.cs",
@@ -130,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TasksHelpers.cs",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Libraries\\Commons\\Class\\TasksHelpers.cs",
               "RelativeDocumentMoniker": "..\\..\\Libraries\\Commons\\Class\\TasksHelpers.cs",
@@ -142,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "GeoJson.cs",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Api.Geo\\Models\\GeoJson.cs",
               "RelativeDocumentMoniker": "..\\Api.Geo\\Models\\GeoJson.cs",
@@ -154,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Property.cs",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Bff.Web\\Models\\Property.cs",
               "RelativeDocumentMoniker": "Models\\Property.cs",
@@ -166,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "SearchResult.cs",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Bff.Web\\Payloads\\SearchResult.cs",
               "RelativeDocumentMoniker": "Payloads\\SearchResult.cs",
@@ -178,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Api_Client.cs",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Libraries\\Commons\\Class\\Api_Client.cs",
               "RelativeDocumentMoniker": "..\\..\\Libraries\\Commons\\Class\\Api_Client.cs",
@@ -190,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Constant.cs",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Libraries\\Commons\\Class\\Constant.cs",
               "RelativeDocumentMoniker": "..\\..\\Libraries\\Commons\\Class\\Constant.cs",
@@ -202,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Utils.cs",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Libraries\\Commons\\Class\\Utils.cs",
               "RelativeDocumentMoniker": "..\\..\\Libraries\\Commons\\Class\\Utils.cs",
@@ -214,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Bff.Web\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -222,11 +218,12 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-12T06:35:55.031Z"
+              "WhenOpened": "2025-07-12T06:35:55.031Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Bff.Web.csproj",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Bff.Web\\Bff.Web.csproj",
               "RelativeDocumentMoniker": "Bff.Web.csproj",
@@ -238,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "launchSettings.json",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Bff.Web\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -250,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Bff.Web\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -262,20 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SearchController.cs",
-              "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Bff.Web\\Controllers\\SearchController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SearchController.cs",
-              "ToolTip": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Api\\Bff.Web\\Controllers\\SearchController.cs",
-              "RelativeToolTip": "Controllers\\SearchController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAIwCMAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T06:28:30.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AuthorizedApiController.cs",
               "DocumentMoniker": "G:\\Projets\\Others  Projects\\Cadastral\\src\\.Net\\Libraries\\Commons\\DataServiceApi\\AuthorizedApiController.cs",
               "RelativeDocumentMoniker": "..\\..\\Libraries\\Commons\\DataServiceApi\\AuthorizedApiController.cs",

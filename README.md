@@ -9,13 +9,33 @@ Pour restaurer un fichier de backup dans la base de données `immo`, suivez ces 
 - Utilisez la commande de restauration : fichier [...](/geo.backup)
 
 
+## 2 Installer la gestion geospatiale PostGis dans PostGreSQL
 
-## 2. Lancer l'API Geo
+✅ Étape 1 : Télécharger l’installeur PostGIS
+
+    Va sur le site officiel :
+    👉 https://postgis.net/windows_downloads/
+
+    Télécharge le PostGIS Bundle compatible avec ta version de PostgresQL 
+
+> Ou 
+
+✅ Étape 2 : Installer avec StackBuilder
+
+    Ouvre StackBuilder (installé avec PostgreSQL).
+
+    Sélectionne ton instance PostgreSQL 17.
+
+    Navigue vers :
+    Spatial Extensions > PostGIS
+
+    Installe PostGIS (suit les instructions).
+## 3. Lancer l'API Geo
 
 L'API Geo permet d'effectuer des recherches géographiques sur des adresses.
 
 - ".\Api.Geo\bin\Debug\net9.0\Api.Geo.exe"Api.Geo.exe : 
-## 3. Lancer l'API BFF
+## 4. Lancer l'API BFF
 
 L'API BFF (Backend For Frontend) simplifie la communication entre le front-end et les services backend.
 
@@ -25,7 +45,7 @@ Assurez-vous que cette API est bien démarrée avant de faire des appels.
 
 ### Exemple de requête POST
 
-- **URL** : `http://localhost:8080/bff-search/cities`
+- **URL** : `http://localhost:8080/bffweb-search/cities`
 - **Méthode** : `POST`
 
 ### Corps de la requête (Body)

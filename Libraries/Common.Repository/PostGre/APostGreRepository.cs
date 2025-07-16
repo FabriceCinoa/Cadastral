@@ -21,7 +21,7 @@ namespace Common.Repository.PostGre
 
         public bool SaveChanges()
         {
-            throw new NotImplementedException();
+            return this.Context.SaveChanges() > 0;
         }
 
 

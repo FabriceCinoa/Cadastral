@@ -8,19 +8,14 @@ using Microsoft.Extensions.Configuration;
 
 namespace GeoRepository.Repositories;
 
-public class GeoPostGreDBRepository : APostGreRepository<APostGreContext>, IGeoRepository
+public partial  class GeoPostGreDBRepository : APostGreRepository<APostGreContext>, IGeoRepository
 {
 
-    new GeoPostGreDBContext? Context => base.Context as GeoPostGreDBContext;
-    public GeoPostGreDBRepository(IConfiguration configuration) : base(new GeoPostGreDBContext(configuration))
-    {
 
-
-    }
 
     public IList<CityEntity> GetCities()
     {
-        return this.Context.City.ToList();
+        return this.Context.Cities.ToList();
     }
 
 

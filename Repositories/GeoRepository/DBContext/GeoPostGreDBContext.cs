@@ -27,11 +27,15 @@ internal class GeoPostGreDBContext : APostGreContext
 
     }
 
-    protected override void Configure(DbContextOptionsBuilder context)
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
+        var connection = this.Configuration.GetConnectionString("Database");
+        optionsBuilder.UseNpgsql(connection, o => o.UseNetTopologySuite());
+        Configure(optionsBuilder);
+
+
 
     }
-
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -81,6 +85,8 @@ internal class GeoPostGreDBContext : APostGreContext
         }
     }
 
-    public DbSet<CityEntity> City { get; set; }
+    public DbSet<CityEntity> Cities { get; set; }
     private DbSet<BdVersionEntity> Versions { get; set; }
+
+    public DbSet<Zone> Zones { get; set; } 
 }

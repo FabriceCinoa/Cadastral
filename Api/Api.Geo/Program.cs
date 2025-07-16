@@ -1,5 +1,7 @@
+using Common.Library.Logger;
 using Common.Repository.DBContext;
 using GeoRepository.Repositories;
+using NetTopologySuite;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,16 +12,20 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IGeoRepository, GeoPostGreDBRepository>();
+// Configuration NetTopologySuite
+var geometryFactory = NtsGeometryServices.Instance.CreateGeometryFactory(srid: 4326);
+builder.Services.AddSingleton(geometryFactory);
+builder.Services.AddSingleton <ILogger>(new ConsoleLogger());
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-//if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

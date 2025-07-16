@@ -11,7 +11,7 @@ namespace GeoRepository.DBContext;
     }
 
     internal static class  MigrationInfos {
-            internal static int AppVersion =>1;
+            internal static int AppVersion =>2;
     }
 
 

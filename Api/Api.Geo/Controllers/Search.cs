@@ -14,7 +14,8 @@ namespace Api.Auth.Controllers
     public class SearchController : ControllerBase
     {
        
-
+       public IConfiguration Configuration { get; }
+        public IGeoRepository Repository { get; }
 
         public SearchController(IConfiguration configuration, IGeoRepository repository)
         {
@@ -22,10 +23,9 @@ namespace Api.Auth.Controllers
             Repository = repository;
         }
 
-        public IConfiguration Configuration { get; }
-        public IGeoRepository Repository { get; }
+ 
 
-        [HttpPost(Name = "search")]
+        [HttpPost]
         public SearchResult  PostSearch(SearchPayload payload)
         {
             var _res = new SearchResult()
@@ -44,5 +44,7 @@ namespace Api.Auth.Controllers
             return _res;
            
         }
+
+       
     }
 }

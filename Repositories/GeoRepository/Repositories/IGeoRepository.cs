@@ -2,9 +2,16 @@
 
 namespace GeoRepository.Repositories
 {
-    public interface IGeoRepository
+    public partial interface IGeoRepository
     {
-        IList<CityEntity> Find(string search, int limit = 10, double precision = 0.5);
-        IList<CityEntity> GetCities();
+
+        #region Get
+            IList<CityEntity> Find(string search, int limit = 10, double precision = 0.5);
+            IList<CityEntity> GetCities();
+        #endregion
+
+        #region Create
+        Zone CreateZone(Zone entity);
+        #endregion
     }
 }
